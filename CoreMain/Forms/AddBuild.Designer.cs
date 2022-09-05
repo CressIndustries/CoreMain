@@ -30,7 +30,6 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.siticoneButton3 = new ns1.SiticoneButton();
-            this.siticoneButton2 = new ns1.SiticoneButton();
             this.siticoneButton1 = new ns1.SiticoneButton();
             this.siticoneTextBox1 = new ns1.SiticoneTextBox();
             this.siticoneTextBox2 = new ns1.SiticoneTextBox();
@@ -43,7 +42,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
             this.panel1.Controls.Add(this.siticoneButton3);
-            this.panel1.Controls.Add(this.siticoneButton2);
             this.panel1.Controls.Add(this.siticoneButton1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -60,7 +58,7 @@
             this.siticoneButton3.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneButton3.ForeColor = System.Drawing.Color.White;
             this.siticoneButton3.HoveredState.Parent = this.siticoneButton3;
-            this.siticoneButton3.Location = new System.Drawing.Point(266, 0);
+            this.siticoneButton3.Location = new System.Drawing.Point(316, 0);
             this.siticoneButton3.Name = "siticoneButton3";
             this.siticoneButton3.ShadowDecoration.Parent = this.siticoneButton3;
             this.siticoneButton3.Size = new System.Drawing.Size(48, 28);
@@ -68,29 +66,12 @@
             this.siticoneButton3.Text = "-";
             this.siticoneButton3.Click += new System.EventHandler(this.siticoneButton3_Click);
             // 
-            // siticoneButton2
-            // 
-            this.siticoneButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.siticoneButton2.CheckedState.Parent = this.siticoneButton2;
-            this.siticoneButton2.CustomImages.Parent = this.siticoneButton2;
-            this.siticoneButton2.FillColor = System.Drawing.Color.Black;
-            this.siticoneButton2.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneButton2.ForeColor = System.Drawing.Color.White;
-            this.siticoneButton2.HoveredState.Parent = this.siticoneButton2;
-            this.siticoneButton2.Location = new System.Drawing.Point(314, 0);
-            this.siticoneButton2.Name = "siticoneButton2";
-            this.siticoneButton2.ShadowDecoration.Parent = this.siticoneButton2;
-            this.siticoneButton2.Size = new System.Drawing.Size(48, 28);
-            this.siticoneButton2.TabIndex = 2;
-            this.siticoneButton2.Text = "🖵";
-            this.siticoneButton2.Click += new System.EventHandler(this.siticoneButton2_Click);
-            // 
             // siticoneButton1
             // 
             this.siticoneButton1.CheckedState.Parent = this.siticoneButton1;
             this.siticoneButton1.CustomImages.Parent = this.siticoneButton1;
             this.siticoneButton1.FillColor = System.Drawing.Color.Black;
-            this.siticoneButton1.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneButton1.Font = new System.Drawing.Font("Product Sans", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneButton1.ForeColor = System.Drawing.Color.White;
             this.siticoneButton1.HoveredState.Parent = this.siticoneButton1;
             this.siticoneButton1.Location = new System.Drawing.Point(362, 0);
@@ -208,7 +189,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private ns1.SiticoneButton siticoneButton3;
-        private ns1.SiticoneButton siticoneButton2;
         private ns1.SiticoneButton siticoneButton1;
         private ns1.SiticoneTextBox siticoneTextBox1;
         private ns1.SiticoneTextBox siticoneTextBox2;

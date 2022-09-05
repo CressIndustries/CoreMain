@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>unknown__4_-removebg-preview.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="DiscordRPC, Version=1.0.175.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DiscordRichPresence.1.0.175\lib\net35\DiscordRPC.dll</HintPath>
@@ -75,6 +78,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Builds.cs" />
+    <Compile Include="Classes\CoreButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Forms\AddBuild.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +154,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Fortnite-Season-7-Loading-Screen-Plane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="unknown__4_-removebg-preview.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
