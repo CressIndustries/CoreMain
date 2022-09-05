@@ -194,5 +194,31 @@ namespace CoreMain
         {
 
         }
+
+        private void corButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            ModsNeeded form = new ModsNeeded();
+            form.Show();
+        }
+
+        private void siticoneButton2_Click_1(object sender, EventArgs e)
+        {
+            if (label1.Text == "")
+            {
+                MessageBox.Show("Empty Username!");
+            }
+            else
+            {
+                Properties.Settings.Default.Username = label1.Text;
+                Properties.Settings.Default.Save();
+                Fortnite.Launch(siticoneRoundedTextBox1.Text, label1.Text);
+
+            }
+        }
     }
 }

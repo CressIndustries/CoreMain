@@ -25,3 +25,6 @@ C:\Users\dexte\source\repos\CoreMain\CoreMain\bin\Debug\DiscordRPC.pdb
 C:\Users\dexte\source\repos\CoreMain\CoreMain\bin\Debug\DiscordRPC.xml
 C:\Users\dexte\source\repos\CoreMain\CoreMain\obj\Debug\CoreMain.MainForm.resources
 C:\Users\dexte\source\repos\CoreMain\CoreMain\obj\Debug\CoreMain.Forms.AddBuild.resources
+C:\Users\dexte\source\repos\CoreMain\CoreMain\obj\Debug\CoreMain.Forms.ModsNeeded.resources
+C:\Users\dexte\source\repos\CoreMain\CoreMain\bin\Debug\Guna.UI2.dll
+C:\Users\dexte\source\repos\CoreMain\CoreMain\obj\Debug\CoreMain.Forms.StartingForm.resources
