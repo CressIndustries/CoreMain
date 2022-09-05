@@ -13,6 +13,7 @@ using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO.MemoryMappedFiles;
 
 namespace CoreMain
 {
@@ -37,6 +38,7 @@ namespace CoreMain
         public MainForm()
         {
             InitializeComponent();
+
             pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -96,6 +98,9 @@ namespace CoreMain
         private void Form1_Load(object sender, EventArgs e)
         {
 
+            siticoneRoundedTextBox1.Text = Properties.Settings.Default.Path;
+            pictureBox2.LoadAsync($"{siticoneRoundedTextBox1.Text}\\FortniteGame\\Content\\Splash\\Splash.bmp");
+            Lawin.Start();
         }
         private void roundedPicture1_Click(object sender, EventArgs e)
         {
@@ -127,9 +132,9 @@ namespace CoreMain
                     else
                     {
                         siticoneRoundedTextBox1.Text = dialog.FileName;
-
                         Properties.Settings.Default.Path = dialog.FileName;
                         Properties.Settings.Default.Save();
+                        pictureBox2.LoadAsync($"{siticoneRoundedTextBox1.Text}\\FortniteGame\\Content\\Splash\\Splash.bmp");
                     }
 
                 }
@@ -154,7 +159,7 @@ namespace CoreMain
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)

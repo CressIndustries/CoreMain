@@ -28,7 +28,7 @@ namespace CoreMain
                 l.BeginInvoke((Action)delegate { l.Text = e.User.Username; });
                 lab.BeginInvoke((Action)delegate { lab.Text = "Logged in as " + e.User.Username; });
 
-                _ = pic.BeginInvoke((Action)delegate { pic.Load(e.User.GetAvatarURL(User.AvatarFormat.GIF)); });
+                _ = pic.BeginInvoke((Action)delegate { pic.Load(e.User.GetAvatarURL(User.AvatarFormat.PNG));});
 
             };
             client.OnError += (object sender, ErrorMessage e) =>

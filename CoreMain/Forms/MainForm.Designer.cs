@@ -33,6 +33,7 @@
             this.siticoneButton2 = new ns1.SiticoneButton();
             this.siticoneButton1 = new ns1.SiticoneButton();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.roundedPicture1 = new RoundedPicture();
             this.label1 = new System.Windows.Forms.Label();
             this.siticoneButton4 = new ns1.SiticoneButton();
             this.AddBuild = new System.Windows.Forms.Label();
@@ -44,16 +45,15 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.roundedPicture1 = new RoundedPicture();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,7 +77,7 @@
             this.siticoneButton3.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneButton3.ForeColor = System.Drawing.Color.White;
             this.siticoneButton3.HoveredState.Parent = this.siticoneButton3;
-            this.siticoneButton3.Location = new System.Drawing.Point(632, 0);
+            this.siticoneButton3.Location = new System.Drawing.Point(629, 0);
             this.siticoneButton3.Name = "siticoneButton3";
             this.siticoneButton3.ShadowDecoration.Parent = this.siticoneButton3;
             this.siticoneButton3.Size = new System.Drawing.Size(48, 28);
@@ -94,7 +94,7 @@
             this.siticoneButton2.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneButton2.ForeColor = System.Drawing.Color.White;
             this.siticoneButton2.HoveredState.Parent = this.siticoneButton2;
-            this.siticoneButton2.Location = new System.Drawing.Point(680, 0);
+            this.siticoneButton2.Location = new System.Drawing.Point(677, 0);
             this.siticoneButton2.Name = "siticoneButton2";
             this.siticoneButton2.ShadowDecoration.Parent = this.siticoneButton2;
             this.siticoneButton2.Size = new System.Drawing.Size(48, 28);
@@ -110,7 +110,7 @@
             this.siticoneButton1.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneButton1.ForeColor = System.Drawing.Color.White;
             this.siticoneButton1.HoveredState.Parent = this.siticoneButton1;
-            this.siticoneButton1.Location = new System.Drawing.Point(728, 0);
+            this.siticoneButton1.Location = new System.Drawing.Point(725, 0);
             this.siticoneButton1.Name = "siticoneButton1";
             this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
             this.siticoneButton1.Size = new System.Drawing.Size(48, 28);
@@ -128,6 +128,16 @@
             this.panel2.Size = new System.Drawing.Size(188, 340);
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // roundedPicture1
+            // 
+            this.roundedPicture1.BackColor = System.Drawing.Color.DarkGray;
+            this.roundedPicture1.Location = new System.Drawing.Point(38, 19);
+            this.roundedPicture1.Name = "roundedPicture1";
+            this.roundedPicture1.Size = new System.Drawing.Size(124, 115);
+            this.roundedPicture1.TabIndex = 1;
+            this.roundedPicture1.TabStop = false;
+            this.roundedPicture1.Click += new System.EventHandler(this.roundedPicture1_Click);
             // 
             // label1
             // 
@@ -238,7 +248,6 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::CoreMain.Properties.Resources.Splash2;
             this.pictureBox4.Location = new System.Drawing.Point(324, 416);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(136, 160);
@@ -248,7 +257,6 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::CoreMain.Properties.Resources.Splash1;
             this.pictureBox3.Location = new System.Drawing.Point(174, 416);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(136, 160);
@@ -258,7 +266,6 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::CoreMain.Properties.Resources.Splash;
             this.pictureBox2.Location = new System.Drawing.Point(18, 416);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(136, 160);
@@ -266,16 +273,6 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // roundedPicture1
-            // 
-            this.roundedPicture1.BackColor = System.Drawing.Color.DarkGray;
-            this.roundedPicture1.Location = new System.Drawing.Point(38, 19);
-            this.roundedPicture1.Name = "roundedPicture1";
-            this.roundedPicture1.Size = new System.Drawing.Size(124, 115);
-            this.roundedPicture1.TabIndex = 1;
-            this.roundedPicture1.TabStop = false;
-            this.roundedPicture1.Click += new System.EventHandler(this.roundedPicture1_Click);
             // 
             // pictureBox1
             // 
@@ -313,12 +310,12 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
