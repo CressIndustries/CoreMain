@@ -146,6 +146,8 @@
   <ItemGroup>
     <None Include="Resources\fortnite-loading-screen-battle-royale-768x384.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Fortnite-Season-7-Loading-Screen-Plane.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

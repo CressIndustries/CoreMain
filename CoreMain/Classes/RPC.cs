@@ -19,7 +19,7 @@ namespace CoreMain
         public static void Init(Label l, PictureBox pic, Label lab)
         {
 
-            client = new DiscordRpcClient("873361408706879579", autoEvents: true);
+            client = new DiscordRpcClient("1016163096047403100", autoEvents: true);
 
             client.Logger = new ConsoleLogger() { Level = LogLevel.Warning };
             client.OnReady += (sender, e) =>
@@ -57,8 +57,8 @@ namespace CoreMain
                 State = "",
                 Assets = new Assets()
                 {
-                    LargeImageKey = "arilauncher",
-                    LargeImageText = "Sex"
+                    LargeImageKey = "core",
+                    LargeImageText = "Project Core"
                 }
             });
 

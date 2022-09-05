@@ -33,7 +33,6 @@
             this.siticoneButton2 = new ns1.SiticoneButton();
             this.siticoneButton1 = new ns1.SiticoneButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.roundedPicture1 = new RoundedPicture();
             this.label1 = new System.Windows.Forms.Label();
             this.siticoneButton4 = new ns1.SiticoneButton();
             this.AddBuild = new System.Windows.Forms.Label();
@@ -45,15 +44,16 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.roundedPicture1 = new RoundedPicture();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,16 +129,6 @@
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // roundedPicture1
-            // 
-            this.roundedPicture1.BackColor = System.Drawing.Color.DarkGray;
-            this.roundedPicture1.Location = new System.Drawing.Point(38, 19);
-            this.roundedPicture1.Name = "roundedPicture1";
-            this.roundedPicture1.Size = new System.Drawing.Size(124, 115);
-            this.roundedPicture1.TabIndex = 1;
-            this.roundedPicture1.TabStop = false;
-            this.roundedPicture1.Click += new System.EventHandler(this.roundedPicture1_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -146,9 +136,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(43, 146);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 24);
+            this.label1.Size = new System.Drawing.Size(46, 24);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Sex";
+            this.label1.Text = "Test";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // siticoneButton4
@@ -263,6 +253,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -274,9 +265,19 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // roundedPicture1
+            // 
+            this.roundedPicture1.BackColor = System.Drawing.Color.DarkGray;
+            this.roundedPicture1.Location = new System.Drawing.Point(38, 19);
+            this.roundedPicture1.Name = "roundedPicture1";
+            this.roundedPicture1.Size = new System.Drawing.Size(124, 115);
+            this.roundedPicture1.TabIndex = 1;
+            this.roundedPicture1.TabStop = false;
+            this.roundedPicture1.Click += new System.EventHandler(this.roundedPicture1_Click);
+            // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::CoreMain.Properties.Resources.fortnite_loading_screen_battle_royale_768x384;
+            this.pictureBox1.Image = global::CoreMain.Properties.Resources.Fortnite_Season_7_Loading_Screen_Plane;
             this.pictureBox1.Location = new System.Drawing.Point(174, 28);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(584, 341);
@@ -310,12 +311,12 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

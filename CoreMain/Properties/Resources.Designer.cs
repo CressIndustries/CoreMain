@@ -103,6 +103,16 @@ namespace CoreMain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fortnite_Season_7_Loading_Screen_Plane {
+            get {
+                object obj = ResourceManager.GetObject("Fortnite-Season-7-Loading-Screen-Plane", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Splash {
             get {
                 object obj = ResourceManager.GetObject("Splash", resourceCulture);
