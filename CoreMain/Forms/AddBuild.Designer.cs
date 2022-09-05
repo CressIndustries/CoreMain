@@ -32,7 +32,7 @@
             this.siticoneButton3 = new ns1.SiticoneButton();
             this.siticoneButton1 = new ns1.SiticoneButton();
             this.siticoneTextBox1 = new ns1.SiticoneTextBox();
-            this.siticoneTextBox2 = new ns1.SiticoneTextBox();
+            this.PathText = new ns1.SiticoneTextBox();
             this.siticoneButton4 = new ns1.SiticoneButton();
             this.siticoneButton5 = new ns1.SiticoneButton();
             this.panel1.SuspendLayout();
@@ -107,30 +107,30 @@
             this.siticoneTextBox1.Size = new System.Drawing.Size(385, 55);
             this.siticoneTextBox1.TabIndex = 2;
             // 
-            // siticoneTextBox2
+            // PathText
             // 
-            this.siticoneTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.siticoneTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox2.DefaultText = "Path";
-            this.siticoneTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.DisabledState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.siticoneTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.FocusedState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox2.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.HoveredState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Location = new System.Drawing.Point(12, 113);
-            this.siticoneTextBox2.Name = "siticoneTextBox2";
-            this.siticoneTextBox2.PasswordChar = '\0';
-            this.siticoneTextBox2.PlaceholderText = "";
-            this.siticoneTextBox2.SelectedText = "";
-            this.siticoneTextBox2.ShadowDecoration.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Size = new System.Drawing.Size(333, 55);
-            this.siticoneTextBox2.TabIndex = 3;
+            this.PathText.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.PathText.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.PathText.DefaultText = "Path";
+            this.PathText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.PathText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.PathText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PathText.DisabledState.Parent = this.PathText;
+            this.PathText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PathText.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.PathText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PathText.FocusedState.Parent = this.PathText;
+            this.PathText.ForeColor = System.Drawing.Color.White;
+            this.PathText.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PathText.HoveredState.Parent = this.PathText;
+            this.PathText.Location = new System.Drawing.Point(12, 113);
+            this.PathText.Name = "PathText";
+            this.PathText.PasswordChar = '\0';
+            this.PathText.PlaceholderText = "";
+            this.PathText.SelectedText = "";
+            this.PathText.ShadowDecoration.Parent = this.PathText;
+            this.PathText.Size = new System.Drawing.Size(333, 55);
+            this.PathText.TabIndex = 3;
             // 
             // siticoneButton4
             // 
@@ -147,6 +147,7 @@
             this.siticoneButton4.Size = new System.Drawing.Size(385, 53);
             this.siticoneButton4.TabIndex = 4;
             this.siticoneButton4.Text = "Launch";
+            this.siticoneButton4.Click += new System.EventHandler(this.siticoneButton4_Click);
             // 
             // siticoneButton5
             // 
@@ -163,6 +164,7 @@
             this.siticoneButton5.Size = new System.Drawing.Size(46, 53);
             this.siticoneButton5.TabIndex = 5;
             this.siticoneButton5.Text = "...";
+            this.siticoneButton5.Click += new System.EventHandler(this.siticoneButton5_Click);
             // 
             // AddBuild
             // 
@@ -172,7 +174,7 @@
             this.ClientSize = new System.Drawing.Size(409, 259);
             this.Controls.Add(this.siticoneButton5);
             this.Controls.Add(this.siticoneButton4);
-            this.Controls.Add(this.siticoneTextBox2);
+            this.Controls.Add(this.PathText);
             this.Controls.Add(this.siticoneTextBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -191,7 +193,7 @@
         private ns1.SiticoneButton siticoneButton3;
         private ns1.SiticoneButton siticoneButton1;
         private ns1.SiticoneTextBox siticoneTextBox1;
-        private ns1.SiticoneTextBox siticoneTextBox2;
+        private ns1.SiticoneTextBox PathText;
         private ns1.SiticoneButton siticoneButton4;
         private ns1.SiticoneButton siticoneButton5;
     }

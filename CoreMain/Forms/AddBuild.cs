@@ -1,8 +1,11 @@
-﻿using System;
+﻿using CoreMain.Properties;
+using Microsoft.WindowsAPICodePack.Dialogs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,7 +35,7 @@ namespace CoreMain.Forms
         {
             InitializeComponent();
         }
-
+        private string fortniteGame;
         private void siticoneButton1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -50,12 +53,58 @@ namespace CoreMain.Forms
 
         private void AddBuild_Load(object sender, EventArgs e)
         {
-
+            PathText.Text = Settings.Default.Path;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+        public string GetBuildName
+        {
+            get { return fortniteGame; }
+            set { fortniteGame = value; }
+        }
+        public string GetBuildVersion
+        {
+            get { return siticoneTextBox1.Text; }
+            set { siticoneTextBox1.Text = value; }
+        }
+        private void siticoneButton5_Click(object sender, EventArgs e)
+        {
+            CommonOpenFileDialog dialog = new CommonOpenFileDialog();
+            using (var dummy = new AddBuild() { TopMost = true })
+            {
+                dialog.IsFolderPicker = true;
+
+
+                if (dialog.ShowDialog() == CommonFileDialogResult.Ok)
+                {
+
+                    fortniteGame = dialog.FileName + @"\FortniteGame";
+                    if (!Directory.Exists(fortniteGame))
+                    {
+                        MessageBox.Show("Specified Path does not have FortniteGame in it! Make sure the folder has FortniteGame AND Engine");
+
+
+
+
+                    }
+                    else
+                    {
+                        PathText.Text = dialog.FileName;
+                        Settings.Default.Path = dialog.FileName;
+                        Settings.Default.Save();
+                    }
+
+
+                }
+            }
+        }
+
+        private void siticoneButton4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -41,10 +41,6 @@ namespace CoreMain
             InitializeComponent();
 
             pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             if (Process.GetProcessesByName("Discord").Length > 0)
             {
                 RPC.Init(label1, roundedPicture1, label2);

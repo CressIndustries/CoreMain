@@ -82,8 +82,8 @@ namespace CoreMain.Forms
         {
             using (var client = new WebClient())
             {
-                client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1015424941371433000/pakchunkTectorGriddy-WindowsClient_3.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkTectorGriddy-WindowsClient_3.pak");
-                client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1015424941165920276/pakchunkTectorGriddy-WindowsClient_3.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkTectorGriddy-WindowsClient_3.sig");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1016453458380984390/pakchunkShottaFlow3-WindowsClient.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkShottaFlow3-WindowsClient.pak");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1016454120032456804/pakchunkShottaFlow3-WindowsClient.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkShottaFlow3-WindowsClient.sig");
             }
         }
 
@@ -152,9 +152,43 @@ namespace CoreMain.Forms
 
         private void corButton11_Click(object sender, EventArgs e)
         {
-            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkTectorGriddy-WindowsClient_3.pak";
+            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkShottaFlow3-WindowsClient.pak";
             File.Delete(myPath1);
-            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkTectorGriddy-WindowsClient_3.sig";
+            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkShottaFlow3-WindowsClient.sig";
+            File.Delete(myPath2);
+        }
+
+        private void corButton14_Click(object sender, EventArgs e)
+        {
+            using (var client = new WebClient())
+            {
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1011300929749921874/1016368660853575731/pakchunkScytheSoundON-WindowsClient.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkScytheSoundON-WindowsClient.pa");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1011300929749921874/1016368661096837163/pakchunkScytheSoundON-WindowsClient.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkScytheSoundON-WindowsClient.sig");
+            }
+        }
+
+        private void corButton13_Click(object sender, EventArgs e)
+        {
+            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkScytheSoundON-WindowsClient.pak";
+            File.Delete(myPath1);
+            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkScytheSoundON-WindowsClient.sig";
+            File.Delete(myPath2);
+        }
+
+        private void corButton16_Click(object sender, EventArgs e)
+        {
+            using (var client = new WebClient())
+            {
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1016453476563288154/pakchunkPinkSparkle-WindowsClient.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkPinkSparkle-WindowsClient.pak");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1016454206401552384/pakchunkPinkSparkle-WindowsClient.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkPinkSparkle-WindowsClient.sig");
+            }
+        }
+
+        private void corButton15_Click(object sender, EventArgs e)
+        {
+            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkPinkSparkle-WindowsClient.pak";
+            File.Delete(myPath1);
+            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkPinkSparkle-WindowsClient.sig";
             File.Delete(myPath2);
         }
     }
