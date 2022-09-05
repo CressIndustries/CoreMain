@@ -1,0 +1,83 @@
+{
+  "friends": [
+    {
+      "accountId": "Twin1",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-08-31T05:47:06.568Z"
+    },
+    {
+      "accountId": "Twfda",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-08-31T06:18:37.173Z"
+    },
+    {
+      "accountId": "Twas",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-08-31T06:24:38.582Z"
+    },
+    {
+      "accountId": "FortniteModPorn",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-09-01T01:43:47.883Z"
+    },
+    {
+      "accountId": "Rily",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-09-01T02:39:08.477Z"
+    },
+    {
+      "accountId": "Sexter",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-09-03T01:37:19.738Z"
+    },
+    {
+      "accountId": "Logged_in_as_i_hate_ella_to",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-09-04T23:12:34.438Z"
+    },
+    {
+      "accountId": "i_hate_ella_to",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2022-09-04T23:15:42.870Z"
+    }
+  ],
+  "incoming": [],
+  "outgoing": [],
+  "suggested": [],
+  "blocklist": [],
+  "settings": {
+    "acceptInvites": "public"
+  }
+}
