@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace CoreMain.Forms
 {
@@ -54,6 +55,16 @@ namespace CoreMain.Forms
         private void AddBuild_Load(object sender, EventArgs e)
         {
             PathText.Text = Settings.Default.Path;
+            var localData = Environment.GetEnvironmentVariable("LocalAppData");
+            var filePath = localData + @"\Core\builds.json";
+
+
+           
+            if (!File.Exists(filePath))
+            {
+                File.Create(filePath);
+            }
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -69,6 +80,11 @@ namespace CoreMain.Forms
         {
             get { return siticoneTextBox1.Text; }
             set { siticoneTextBox1.Text = value; }
+        }
+        public class Build
+        {
+            public string Name { get; set; }
+            public string Path { get; set; }
         }
         private void siticoneButton5_Click(object sender, EventArgs e)
         {
@@ -95,6 +111,25 @@ namespace CoreMain.Forms
                         PathText.Text = dialog.FileName;
                         Settings.Default.Path = dialog.FileName;
                         Settings.Default.Save();
+                        var localData = Environment.GetEnvironmentVariable("LocalAppData");
+                        var filePath = localData + @"\Core\builds.json";
+                        var jsonData = File.ReadAllText(filePath);
+
+                        PictureBox pictureBox = new PictureBox();
+                        pictureBox.LoadAsync(PathText.Text + "\\FortniteGame\\Content\\Splash\\Splash.bmp");
+
+                        var _build = JsonConvert.DeserializeObject<List<Build>>(jsonData) ?? new List<Build>();
+
+                        _build.Add(new Build { Name = siticoneTextBox1.Text, Path = PathText.Text });
+                        jsonData = JsonConvert.SerializeObject(_build, Formatting.Indented);
+
+                        File.WriteAllText(filePath, jsonData);
+
+                        MessageBox.Show("Added Build!");
+
+                        Application.Restart();
+
+                        
                     }
 
 
@@ -105,6 +140,11 @@ namespace CoreMain.Forms
         private void siticoneButton4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void PathText_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

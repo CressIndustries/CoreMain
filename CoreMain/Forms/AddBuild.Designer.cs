@@ -33,7 +33,6 @@
             this.siticoneButton1 = new ns1.SiticoneButton();
             this.siticoneTextBox1 = new ns1.SiticoneTextBox();
             this.PathText = new ns1.SiticoneTextBox();
-            this.siticoneButton4 = new ns1.SiticoneButton();
             this.siticoneButton5 = new ns1.SiticoneButton();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -131,23 +130,7 @@
             this.PathText.ShadowDecoration.Parent = this.PathText;
             this.PathText.Size = new System.Drawing.Size(333, 55);
             this.PathText.TabIndex = 3;
-            // 
-            // siticoneButton4
-            // 
-            this.siticoneButton4.CheckedState.Parent = this.siticoneButton4;
-            this.siticoneButton4.CustomImages.Parent = this.siticoneButton4;
-            this.siticoneButton4.FillColor = System.Drawing.Color.Green;
-            this.siticoneButton4.Font = new System.Drawing.Font("Microsoft JhengHei Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneButton4.ForeColor = System.Drawing.Color.White;
-            this.siticoneButton4.HoveredState.Parent = this.siticoneButton4;
-            this.siticoneButton4.Location = new System.Drawing.Point(12, 183);
-            this.siticoneButton4.Name = "siticoneButton4";
-            this.siticoneButton4.ShadowDecoration.Color = System.Drawing.Color.Green;
-            this.siticoneButton4.ShadowDecoration.Parent = this.siticoneButton4;
-            this.siticoneButton4.Size = new System.Drawing.Size(385, 53);
-            this.siticoneButton4.TabIndex = 4;
-            this.siticoneButton4.Text = "Launch";
-            this.siticoneButton4.Click += new System.EventHandler(this.siticoneButton4_Click);
+            this.PathText.TextChanged += new System.EventHandler(this.PathText_TextChanged);
             // 
             // siticoneButton5
             // 
@@ -173,7 +156,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(409, 259);
             this.Controls.Add(this.siticoneButton5);
-            this.Controls.Add(this.siticoneButton4);
             this.Controls.Add(this.PathText);
             this.Controls.Add(this.siticoneTextBox1);
             this.Controls.Add(this.panel1);
@@ -194,7 +176,6 @@
         private ns1.SiticoneButton siticoneButton1;
         private ns1.SiticoneTextBox siticoneTextBox1;
         private ns1.SiticoneTextBox PathText;
-        private ns1.SiticoneButton siticoneButton4;
         private ns1.SiticoneButton siticoneButton5;
     }
 }

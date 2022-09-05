@@ -41,12 +41,11 @@
             this.AddBuild1 = new System.Windows.Forms.Label();
             this.siticoneRoundedTextBox1 = new ns1.SiticoneRoundedTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.roundedPicture1 = new RoundedPicture();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).BeginInit();
             this.SuspendLayout();
@@ -222,16 +221,6 @@
             this.label2.Visible = false;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(7, 416);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(136, 160);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::CoreMain.Properties.Resources.Fortnite_Season_7_Loading_Screen_Plane;
@@ -241,6 +230,15 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(8, 416);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(744, 160);
+            this.flowLayoutPanel1.TabIndex = 12;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // roundedPicture1
             // 
@@ -258,9 +256,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(757, 588);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.siticoneRoundedTextBox1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.AddBuild1);
             this.Controls.Add(this.AddBuild);
             this.Controls.Add(this.panel2);
@@ -276,7 +274,6 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundedPicture1)).EndInit();
             this.ResumeLayout(false);
@@ -293,7 +290,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label AddBuild;
         private System.Windows.Forms.Label AddBuild1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private ns1.SiticoneRoundedTextBox siticoneRoundedTextBox1;
         private RoundedPicture roundedPicture1;
         private System.Windows.Forms.Label label2;
@@ -301,6 +297,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private ns1.SiticoneButton siticoneButton2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
 

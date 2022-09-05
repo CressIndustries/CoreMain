@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.MemoryMappedFiles;
 using System.Net;
+using CoreMain;
 
 namespace CoreMain
 {
@@ -36,11 +37,12 @@ namespace CoreMain
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
+
         public MainForm()
         {
             InitializeComponent();
 
-            pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+
             if (Process.GetProcessesByName("Discord").Length > 0)
             {
                 RPC.Init(label1, roundedPicture1, label2);
@@ -49,6 +51,88 @@ namespace CoreMain
             this.Shown += Form_Shown;
 
             this.FormClosed += new FormClosedEventHandler(MainForm_FormClosed);
+
+            var localData = Environment.GetEnvironmentVariable("LocalAppData");
+            var filePath = localData + @"\Core\builds.json";
+            var jsonData = File.ReadAllText(filePath);
+         if (jsonData == "")
+            {
+                return;
+
+            }
+
+
+
+
+            if (!File.Exists(filePath))
+            {
+                Directory.CreateDirectory(localData + "\\Core");
+                var file = File.Create(filePath);
+
+                file.Close();
+
+            }
+
+            using (StreamReader r = new StreamReader(filePath))
+            {
+                string json = r.ReadToEnd();
+                dynamic array = JsonConvert.DeserializeObject(json);
+                foreach (var builds in array)
+                {
+
+                    PictureBox pictureBox = new PictureBox();
+                    pictureBox.Width = 136;
+                    pictureBox.Height = 155;
+                    pictureBox.Name = builds.Path;
+                    pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBox.WaitOnLoad = false;
+                    try
+                    {
+                        pictureBox.ImageLocation = builds.Path + "\\FortniteGame\\Content\\Splash\\Splash.bmp";
+                    }
+                    catch
+                    {
+                        pictureBox.Load("https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png");
+                    }
+                    
+
+
+
+
+                                     
+                                           
+
+
+
+                    pictureBox.Click += this.picClick;
+                    flowLayoutPanel1.Controls.Add(pictureBox);
+
+
+                }
+
+
+
+
+
+            }
+
+
+
+
+        }
+        private void picClick(object sender, EventArgs e)
+        {
+            PictureBox pictureBox = sender as PictureBox;
+            var ok = MessageBox.Show("Would you like to launch this version?", "Alert", MessageBoxButtons.YesNo);
+            if (ok == DialogResult.Yes)
+            {
+                Fortnite.Launch(pictureBox.Name, label1.Text);
+            }
+            else
+            {
+
+            }
+
         }
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -95,7 +179,7 @@ namespace CoreMain
         private void Form1_Load(object sender, EventArgs e)
         {
             siticoneRoundedTextBox1.Text = Properties.Settings.Default.Path;
-            pictureBox2.LoadAsync($"{siticoneRoundedTextBox1.Text}\\FortniteGame\\Content\\Splash\\Splash.bmp");
+
             Lawin.Start();
         }
         private void roundedPicture1_Click(object sender, EventArgs e)
@@ -130,7 +214,7 @@ namespace CoreMain
                         siticoneRoundedTextBox1.Text = dialog.FileName;
                         Properties.Settings.Default.Path = dialog.FileName;
                         Properties.Settings.Default.Save();
-                        pictureBox2.LoadAsync($"{siticoneRoundedTextBox1.Text}\\FortniteGame\\Content\\Splash\\Splash.bmp");
+
                     }
 
                 }
@@ -166,7 +250,7 @@ namespace CoreMain
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -215,6 +299,11 @@ namespace CoreMain
                 Fortnite.Launch(siticoneRoundedTextBox1.Text, label1.Text);
 
             }
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
