@@ -9,8 +9,8 @@
       "_type": "CommonUI Simple Message",
       "message": {
         "_type": "CommonUI Simple Message Base",
-        "title": "LawinServer",
-        "body": "Join our discord: https://discord.gg/KJ8UaHZ\nYouTube: Lawin\nTwitter: @lawin_010"
+        "title": "CoreMP",
+        "body": "Join our discord: https://discord.gg/coremp\nYouTube: Lawin\nTwitter: @lawin_010"
       }
     },
     "_activeDate": "2017-07-19T13:14:04.490Z",
@@ -111,7 +111,7 @@
           "de": "Battle Royale, 100-Spieler-PvP.\n\nFortschritte im PvE haben keinen Einfluss auf Battle Royale.",
           "ru": "PvP-режим на 100 игроков «Королевская битва».\n\nПрогресс в кампании не затрагивает «Королевскую битву».",
           "ko": "100명의 플레이어와 함께하는 PvP 모드, 배틀로얄.\n\nPvE 모드의 진행 상황은 배틀로얄 플레이에 영향을 주지 않습니다.",
-          "en": "100 Player PvP Battle Royale.\n\nPvE progress does not affect Battle Royale.",
+          "en": "CORE MP??!?!?!.\n\n",
           "it": "Battaglia reale PvP a 100 giocatori.\n\nI progressi in PvE non sono trasferiti nella Battaglia reale.",
           "fr": "Un Battle Royale à 100 en JcJ.\n\nLa progression du mode JcE n'affecte pas Battle Royale.",
           "es": "Battle Royale JcJ de 100 jugadores.\n\nEl progreso JcE no afecta a Battle Royale.",
@@ -214,16 +214,16 @@
           "_type": "CommonUI Simple Message Base",
           "adspace": "DISCORD!",
           "title": "Join our discord server!",
-          "body": "https://discord.gg/KJ8UaHZ",
+          "body": "https://discord.gg/coremp",
           "spotlight": false
         },
         {
-          "image": "https://fortnite-public-service-prod11.ol.epicgames.com/images/lawin.jpg",
+          "image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "ENJOY!",
-          "title": "LawinServer",
-          "body": "Enjoy LawinServer!",
+          "title": "CoreMP",
+          "body": "Enjoy CoreMP!",
           "spotlight": false
         }
       ]
@@ -1152,14 +1152,14 @@
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlisttiles/BR_LobbyTileArt_Solo-512x512-24446ea2a54612c5604ecf0e30475b4dec81c3bc.png",
+          "image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "playlist_name": "Playlist_DefaultSolo",
           "hidden": false,
           "special_border": "None",
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlisttiles/BR_LobbyTileArt_Duo-512x512-5dea8dfae97bddcd4e204dd47bfb245d3f68fc7b.png",
+          "image": "https://static.wikia.nocookie.net/dragon-ball-rage-roblox/images/5/5d/NERD.jpg",
           "playlist_name": "Playlist_DefaultDuo",
           "hidden": false,
           "special_border": "None",
@@ -1171,7 +1171,7 @@
           "_type": "FortPlaylistInfo"
         },
         {
-          "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlisttiles/BR_LobbyTileArt_Squad-512x512-5225ec6ca3265611957834c2c549754fe1778449.png",
+          "image": "https://static.wikia.nocookie.net/dragon-ball-rage-roblox/images/5/5d/NERD.jpg",
           "playlist_name": "Playlist_DefaultSquad",
           "hidden": false,
           "special_border": "None",
@@ -1320,22 +1320,22 @@
           "playlistname": "Playlist_Playground"
         },
         {
-          "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlisttiles/LTM_50v50-1024x512-788bf1a67426f54307c4296123ac2d3ff8cc0d6c.png",
+          "image": "https://pop.inquirer.net/files/2021/05/834.png",
           "_type": "PlaylistImageEntry",
           "playlistname": "Playlist_50v50"
         },
         {
-          "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlisttiles/BR_LobbyTileArt_Solo-512x512-24446ea2a54612c5604ecf0e30475b4dec81c3bc.png",
+          "image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "_type": "PlaylistImageEntry",
           "playlistname": "Playlist_DefaultSolo"
         },
         {
-          "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlisttiles/BR_LobbyTileArt_Duo-512x512-5dea8dfae97bddcd4e204dd47bfb245d3f68fc7b.png",
+          "image": "https://static.wikia.nocookie.net/dragon-ball-rage-roblox/images/5/5d/NERD.jpg",
           "_type": "PlaylistImageEntry",
           "playlistname": "Playlist_DefaultDuo"
         },
         {
-          "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/playlisttiles/BR_LobbyTileArt_Squad-512x512-5225ec6ca3265611957834c2c549754fe1778449.png",
+          "image": "https://static.wikia.nocookie.net/dragon-ball-rage-roblox/images/5/5d/NERD.jpg",
           "_type": "PlaylistImageEntry",
           "playlistname": "Playlist_DefaultSquad"
         }
@@ -1352,10 +1352,10 @@
       "tournaments": [
         {
           "title_color": "FFFFFF",
-          "loading_screen_image": "https://fortnite-public-service-prod11.ol.epicgames.com/images/lawin.jpg",
+          "loading_screen_image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "background_text_color": "1B1B1B",
           "background_right_color": "DD091A",
-          "poster_back_image": "https://fortnite-public-service-prod11.ol.epicgames.com/images/lawin.jpg",
+          "poster_back_image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "_type": "Tournament Display Info",
           "pin_earned_text": "lawin is the winner!",
           "tournament_display_id": "s11_switchcup",
@@ -1363,7 +1363,7 @@
           "schedule_info": "November 2nd & 3rd: 2pm - 5pm JST",
           "primary_color": "FFFFFF",
           "flavor_description": "cool",
-          "poster_front_image": "https://fortnite-public-service-prod11.ol.epicgames.com/images/lawin.jpg",
+          "poster_front_image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "short_format_title": "Event Sessions",
           "title_line_2": "boomer",
           "title_line_1": "Solo",
@@ -1373,7 +1373,7 @@
           "long_format_title": "nice",
           "poster_fade_color": "DD091A",
           "secondary_color": "1B1B1B",
-          "playlist_tile_image": "https://fortnite-public-service-prod11.ol.epicgames.com/images/lawin.jpg",
+          "playlist_tile_image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "base_color": "FFFFFF"
         }
       ],
@@ -1392,8 +1392,8 @@
         {
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
-          "title": "LawinServer",
-          "body": "Server created by Lawin (Twitter: @lawin_010)\nDiscord: https://discord.gg/KJ8UaHZ",
+          "title": "CoreMP",
+          "body": "Server created by Lawin (Twitter: @lawin_010)\nDiscord: https://discord.gg/coremp",
           "spotlight": true
         }
       ]
@@ -1417,8 +1417,8 @@
           "gamemodes": [],
           "hidden": false,
           "_type": "CommonUI Emergency Notice Base",
-          "title": "LawinServer",
-          "body": "Server created by Lawin (Twitter: @lawin_010)\nDiscord: https://discord.gg/KJ8UaHZ"
+          "title": "CoreMP",
+          "body": "Server created by Lawin (Twitter: @lawin_010)\nDiscord: https://discord.gg/coremp"
         }
       ]
     },
@@ -1566,9 +1566,7 @@
             }
           ],
           "r": "rm",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "t": "We want your feedback!",
           "id": "191015BattlePassMotivation",
           "po": {
@@ -1679,9 +1677,7 @@
             }
           ],
           "r": "rm",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "t": "We want your feedback!",
           "id": "191015BattlePassSentiment",
           "po": {
@@ -1738,9 +1734,7 @@
             }
           ],
           "r": "rm",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "t": "We want your feedback!",
           "id": "190924_ITEMC_Carrying_FNBR",
           "po": {
@@ -1797,9 +1791,7 @@
             }
           ],
           "r": "rm",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "t": "We want your feedback!",
           "id": "190924_ITEMC_Swimming_FNBR",
           "po": {
@@ -1856,9 +1848,7 @@
             }
           ],
           "r": "rm",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "t": "We want your feedback!",
           "id": "190924_ITEMC_Fishing_FNBR",
           "po": {
@@ -1916,9 +1906,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Slurpy Swamp_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -1975,9 +1963,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Holly Hedges_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2034,9 +2020,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Salty Springs_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2093,9 +2077,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Steamy Stacks_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2152,9 +2134,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Dirty Docks_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2211,9 +2191,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Misty Meadows_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2270,9 +2248,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Frenzy Farm_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2329,9 +2305,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Pleasant Park_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2388,9 +2362,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Retail Row_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2447,9 +2419,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Lazy Lake_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2506,9 +2476,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Weeping Woods_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2565,9 +2533,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Craggy Cliffs_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2624,9 +2590,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_POIC_Sweaty Sands_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2683,9 +2647,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_ITEMC_Hideouts_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2742,9 +2704,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_ITEMC_Fishing Rod_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2801,9 +2761,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_ITEMC_Upgrade Bench_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2860,9 +2818,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_ITEMC_Bandage Bazooka_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2919,9 +2875,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190924_ITEMC_Motorboat_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -2978,9 +2932,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Submachine Gun_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3037,9 +2989,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Bolt-Action Sniper Rifle_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3096,9 +3046,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Pump Shotgun_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3155,9 +3103,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Burst Assault Rifle_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3214,9 +3160,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Damage Trap_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3273,9 +3217,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Small Shield Potion_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3332,9 +3274,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Shield Potion_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3391,9 +3331,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Medkit_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3450,9 +3388,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Grenade_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3509,9 +3445,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Bandage_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3568,9 +3502,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Tactical Shotgun_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3627,9 +3559,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Pistol_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3686,9 +3616,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Rocket Launcher_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3745,9 +3673,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190619_ITEMC_Assault Rifle_FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3804,9 +3730,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190612Game1-HeartbeatNegativePositve-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -3863,9 +3787,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "pc"
-          ],
+          "sg": ["pc"],
           "id": "190417HeartbeatNegativePositve-FNC",
           "po": {
             "_type": "Player Survey - Message"
@@ -3922,9 +3844,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "pc"
-          ],
+          "sg": ["pc"],
           "id": "190405_TimeSpent_FNC",
           "po": {
             "_type": "Player Survey - Message"
@@ -3981,9 +3901,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190405RebootVan-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -4040,9 +3958,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190308Pace-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -4100,9 +4016,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190308OverallDifficulty-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -4213,9 +4127,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "c"
-          ],
+          "sg": ["c"],
           "id": "190308Controls-StW",
           "po": {
             "_type": "Player Survey - Message"
@@ -4326,9 +4238,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190308Controls-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -4412,9 +4322,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "c"
-          ],
+          "sg": ["c"],
           "id": "190308Building-StW",
           "po": {
             "_type": "Player Survey - Message"
@@ -4498,9 +4406,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190308Building-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -4557,9 +4463,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "c"
-          ],
+          "sg": ["c"],
           "id": "190308HeartbeatNegativePositve-StW",
           "po": {
             "_type": "Player Survey - Message"
@@ -4616,9 +4520,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "c"
-          ],
+          "sg": ["c"],
           "id": "190308HeartbeatSatisfaction-StW",
           "po": {
             "_type": "Player Survey - Message"
@@ -4675,9 +4577,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190308HeartbeatSatisfaction-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -4735,9 +4635,7 @@
           ],
           "r": "rm",
           "t": "We want your feedback!",
-          "sg": [
-            "a"
-          ],
+          "sg": ["a"],
           "id": "190308HeartbeatNegativePositve-FNBR",
           "po": {
             "_type": "Player Survey - Message"
@@ -4789,9 +4687,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Android"
-                            ],
+                            "p": ["Android"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -4813,9 +4709,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "IOS"
-                            ],
+                            "p": ["IOS"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -4837,9 +4731,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "PS4"
-                            ],
+                            "p": ["PS4"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -4861,9 +4753,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Switch"
-                            ],
+                            "p": ["Switch"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -4885,9 +4775,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Windows"
-                            ],
+                            "p": ["Windows"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -4909,9 +4797,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "XboxOne"
-                            ],
+                            "p": ["XboxOne"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -4997,9 +4883,7 @@
                 "q": {
                   "t": "s",
                   "_type": "Player Survey - Gameplay Tag Query",
-                  "n": [
-                    "Athena.Location.POI.TheBlock"
-                  ]
+                  "n": ["Athena.Location.POI.TheBlock"]
                 },
                 "_type": "Player Survey - Condition - BR POI"
               }
@@ -5027,9 +4911,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "XboxOne"
-                            ],
+                            "p": ["XboxOne"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5051,9 +4933,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Switch"
-                            ],
+                            "p": ["Switch"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5075,9 +4955,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "PS4"
-                            ],
+                            "p": ["PS4"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5099,9 +4977,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Windows"
-                            ],
+                            "p": ["Windows"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5123,9 +4999,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "IOS"
-                            ],
+                            "p": ["IOS"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5147,9 +5021,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Android"
-                            ],
+                            "p": ["Android"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5178,17 +5050,11 @@
                         {
                           "as": {
                             "s": "MatchesPlayed",
-                            "pt": [
-                              "a"
-                            ],
+                            "pt": ["a"],
                             "t": 1,
                             "ag": "s",
                             "_type": "Player Survey - Condition - BR Match Stat",
-                            "i": [
-                              "gamepad",
-                              "touch",
-                              "keyboardmouse"
-                            ],
+                            "i": ["gamepad", "touch", "keyboardmouse"],
                             "o": "e"
                           },
                           "_type": "Player Survey - Condition Container OA"
@@ -5244,9 +5110,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "PS4"
-                            ],
+                            "p": ["PS4"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5268,9 +5132,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Windows"
-                            ],
+                            "p": ["Windows"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5292,9 +5154,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "XboxOne"
-                            ],
+                            "p": ["XboxOne"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5348,17 +5208,11 @@
                         {
                           "as": {
                             "s": "MatchesPlayed",
-                            "pt": [
-                              "a"
-                            ],
+                            "pt": ["a"],
                             "t": 1,
                             "ag": "s",
                             "_type": "Player Survey - Condition - BR Match Stat",
-                            "i": [
-                              "gamepad",
-                              "touch",
-                              "keyboardmouse"
-                            ],
+                            "i": ["gamepad", "touch", "keyboardmouse"],
                             "o": "ge"
                           },
                           "_type": "Player Survey - Condition Container OA"
@@ -5366,17 +5220,11 @@
                         {
                           "as": {
                             "s": "MatchesPlayed",
-                            "pt": [
-                              "a"
-                            ],
+                            "pt": ["a"],
                             "t": 20,
                             "ag": "s",
                             "_type": "Player Survey - Condition - BR Match Stat",
-                            "i": [
-                              "gamepad",
-                              "touch",
-                              "keyboardmouse"
-                            ],
+                            "i": ["gamepad", "touch", "keyboardmouse"],
                             "o": "l"
                           },
                           "_type": "Player Survey - Condition Container OA"
@@ -5399,17 +5247,11 @@
                         {
                           "as": {
                             "s": "MatchesPlayed",
-                            "pt": [
-                              "a"
-                            ],
+                            "pt": ["a"],
                             "t": 20,
                             "ag": "s",
                             "_type": "Player Survey - Condition - BR Match Stat",
-                            "i": [
-                              "gamepad",
-                              "touch",
-                              "keyboardmouse"
-                            ],
+                            "i": ["gamepad", "touch", "keyboardmouse"],
                             "o": "ge"
                           },
                           "_type": "Player Survey - Condition Container OA"
@@ -5453,9 +5295,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Android"
-                            ],
+                            "p": ["Android"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5477,9 +5317,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "IOS"
-                            ],
+                            "p": ["IOS"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5501,9 +5339,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "PS4"
-                            ],
+                            "p": ["PS4"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5525,9 +5361,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Switch"
-                            ],
+                            "p": ["Switch"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5549,9 +5383,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Windows"
-                            ],
+                            "p": ["Windows"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5573,9 +5405,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "XboxOne"
-                            ],
+                            "p": ["XboxOne"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5611,9 +5441,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "XboxOne"
-                            ],
+                            "p": ["XboxOne"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5635,9 +5463,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Windows"
-                            ],
+                            "p": ["Windows"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5659,9 +5485,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Switch"
-                            ],
+                            "p": ["Switch"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5683,9 +5507,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "PS4"
-                            ],
+                            "p": ["PS4"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5707,9 +5529,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "IOS"
-                            ],
+                            "p": ["IOS"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5731,9 +5551,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Android"
-                            ],
+                            "p": ["Android"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5781,9 +5599,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Android"
-                            ],
+                            "p": ["Android"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5805,9 +5621,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "IOS"
-                            ],
+                            "p": ["IOS"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5829,9 +5643,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "PS4"
-                            ],
+                            "p": ["PS4"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5853,9 +5665,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Switch"
-                            ],
+                            "p": ["Switch"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5877,10 +5687,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "Windows",
-                              "Mac"
-                            ],
+                            "p": ["Windows", "Mac"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -5902,9 +5709,7 @@
                         {
                           "_type": "Player Survey - Condition Container OA",
                           "pl": {
-                            "p": [
-                              "XboxOne"
-                            ],
+                            "p": ["XboxOne"],
                             "_type": "Player Survey - Condition - Platform"
                           }
                         }
@@ -6004,7 +5809,7 @@
         "de": "100 Spieler PvP",
         "ru": "PVP-режим на 100 игроков",
         "ko": "100인 플레이어 PvP",
-        "en": "100 Player PvP",
+        "en": "Core Multiplayer Fortnite",
         "it": "PvP a 100 giocatori",
         "fr": "JcJ à 100 joueurs",
         "es": "JcJ de 100 jugadores",
@@ -6020,7 +5825,7 @@
         "de": "Battle Royale",
         "ru": "Battle Royale",
         "ko": "Battle Royale",
-        "en": "Battle Royale",
+        "en": "CORE MP??!?!?!.",
         "it": "Battaglia reale",
         "fr": "Battle Royale",
         "es": "Battle Royale",
@@ -6130,7 +5935,7 @@
           "_type": "CommonUI Simple Message MOTD",
           "title": {
             "ar": "مرحبًا بك في LawinServer!",
-            "en": "Welcome to LawinServer!",
+            "en": "Welcome to CoreMP!",
             "de": "Willkommen bei LawinServer!",
             "es": "¡Bienvenidos a LawinServer!",
             "es-419": "¡Bienvenidos a LawinServer!",
@@ -6163,7 +5968,7 @@
           "videoStreamingEnabled": false,
           "sortingPriority": 90,
           "websiteButtonText": "Discord",
-          "websiteURL": "https://discord.gg/KJ8UaHZ",
+          "websiteURL": "https://discord.gg/coremp",
           "id": "61fb3dd8-f23d-45cc-9058-058ab223ba5c",
           "videoAutoplay": false,
           "videoFullscreen": false,
@@ -6177,16 +5982,16 @@
           "_type": "CommonUI Simple Message Base",
           "adspace": "DISCORD!",
           "title": "Join our discord server!",
-          "body": "https://discord.gg/KJ8UaHZ",
+          "body": "https://discord.gg/coremp",
           "spotlight": false
         },
         {
-          "image": "https://fortnite-public-service-prod11.ol.epicgames.com/images/lawin.jpg",
+          "image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webp",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "ENJOY!",
-          "title": "LawinServer",
-          "body": "Enjoy LawinServer!",
+          "title": "CoreMP",
+          "body": "Enjoy CoreMP!",
           "spotlight": false
         }
       ]
@@ -6209,11 +6014,11 @@
           "tileImage": "https://fortnite-public-service-prod11.ol.epicgames.com/images/motd-s.png",
           "videoMute": false,
           "hidden": false,
-          "tabTitleOverride": "LawinServer",
+          "tabTitleOverride": "CoreMP!",
           "_type": "CommonUI Simple Message MOTD",
           "title": {
             "ar": "مرحبًا بك في LawinServer!",
-            "en": "Welcome to LawinServer!",
+            "en": "Welcome to CoreMP!",
             "de": "Willkommen bei LawinServer!",
             "es": "¡Bienvenidos a LawinServer!",
             "es-419": "¡Bienvenidos a LawinServer!",
@@ -6246,7 +6051,7 @@
           "videoStreamingEnabled": false,
           "sortingPriority": 90,
           "websiteButtonText": "Discord",
-          "websiteURL": "https://discord.gg/KJ8UaHZ",
+          "websiteURL": "https://discord.gg/coremp",
           "id": "61fb3dd8-f23d-45cc-9058-058ab223ba5c",
           "videoAutoplay": false,
           "videoFullscreen": false,
@@ -6296,16 +6101,16 @@
           "_type": "CommonUI Simple Message Base",
           "adspace": "DISCORD!",
           "title": "Join our discord server!",
-          "body": "https://discord.gg/KJ8UaHZ",
+          "body": "https://discord.gg/coremp",
           "spotlight": false
         },
         {
-          "image": "https://fortnite-public-service-prod11.ol.epicgames.com/images/lawin.jpg",
+          "image": "https://cdn.discordapp.com/icons/994035983580405870/8160bdd221826b061571ca63550f0479.webpp",
           "hidden": false,
           "_type": "CommonUI Simple Message Base",
           "adspace": "ENJOY!",
-          "title": "LawinServer",
-          "body": "Enjoy LawinServer!",
+          "title": "CoreMP",
+          "body": "Enjoy CoreMP!",
           "spotlight": false
         }
       ]

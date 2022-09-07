@@ -41,7 +41,7 @@
         ],
         "title": {
           "ar": "مرحبًا بك في LawinServer!",
-          "en": "Welcome to LawinServer!",
+          "en": "Welcome to CoreMP!",
           "de": "Willkommen bei LawinServer!",
           "es": "¡Bienvenidos a LawinServer!",
           "es-419": "¡Bienvenidos a LawinServer!",
@@ -59,7 +59,7 @@
         "videoMute": false,
         "videoStreamingEnabled": false,
         "websiteButtonText": "Discord",
-        "websiteURL": "https://discord.gg/KJ8UaHZ"
+        "websiteURL": "https://discord.gg/coremp"
       },
       "contentSchemaName": "MotdWebsiteNewsWithVideo"
     }

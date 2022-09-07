@@ -54,11 +54,11 @@ namespace CoreMain.Forms
 
         private void AddBuild_Load(object sender, EventArgs e)
         {
-            PathText.Text = Settings.Default.Path;
+            
             var localData = Environment.GetEnvironmentVariable("LocalAppData");
             var filePath = localData + @"\Core\builds.json";
 
-
+            
            
             if (!File.Exists(filePath))
             {
@@ -89,7 +89,7 @@ namespace CoreMain.Forms
         private void siticoneButton5_Click(object sender, EventArgs e)
         {
             CommonOpenFileDialog dialog = new CommonOpenFileDialog();
-            using (var dummy = new AddBuild() { TopMost = true })
+            using (var dummy = new AddBuild())
             {
                 dialog.IsFolderPicker = true;
 
@@ -114,9 +114,7 @@ namespace CoreMain.Forms
                             return;
                         }
                         PathText.Text = dialog.FileName;
-                        Settings.Default.Path = dialog.FileName;
-                        Settings.Default.Save();
-
+                        this.BringToFront();
 
                         
                     }
