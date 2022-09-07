@@ -16,6 +16,8 @@ using System.Windows.Forms;
 using System.IO.MemoryMappedFiles;
 using System.Net;
 using CoreMain;
+using System.Text.RegularExpressions;
+using Microsoft.VisualBasic;
 
 namespace CoreMain
 {
@@ -46,6 +48,11 @@ namespace CoreMain
             if (Process.GetProcessesByName("Discord").Length > 0)
             {
                 RPC.Init(label1, roundedPicture1, label2);
+                
+                
+            } else
+            {
+                MessageBox.Show("Could not find discord! Make sure it is open!");
             }
 
             this.Shown += Form_Shown;
@@ -54,12 +61,20 @@ namespace CoreMain
 
             var localData = Environment.GetEnvironmentVariable("LocalAppData");
             var filePath = localData + @"\Core\builds.json";
-            var jsonData = File.ReadAllText(filePath);
-         if (jsonData == "")
+            if (!File.Exists(filePath))
             {
-                return;
-
+                var ok = File.Create(filePath);
+                ok.Close();
             }
+            var jsonData = File.ReadAllText(filePath);
+                if (jsonData == "")
+                {
+                    return;
+
+                }
+
+           
+
 
 
 
@@ -120,6 +135,7 @@ namespace CoreMain
 
 
         }
+       
         private void picClick(object sender, EventArgs e)
         {
             PictureBox pictureBox = sender as PictureBox;
@@ -127,6 +143,17 @@ namespace CoreMain
             if (ok == DialogResult.Yes)
             {
                 Fortnite.Launch(pictureBox.Name, label1.Text);
+                using (var client = new WebClient())
+                {
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/998358440080572476/1012904331718164601/pakchunkPleasantFix-WindowsClient.pak", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkPleasantFix-WindowsClient.pak");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/998358440080572476/1012904331386830939/pakchunkPleasantFix-WindowsClient.sig", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkPleasantFix-WindowsClient.sig");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1015424941371433000/pakchunkTectorGriddy-WindowsClient_3.pak", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkTectorGriddy-WindowsClient_3.pak");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1015424941165920276/pakchunkTectorGriddy-WindowsClient_3.sig", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkTectorGriddy-WindowsClient_3.sig");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1012222418254843966/pakchunkTI93V5-WindowsClient.pak", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkTI93V5-WindowsClient.pak");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1012222418577784912/pakchunkTI93V5-WindowsClient.sig", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkTI93V5-WindowsClient.sig");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1015445231983923280/pakchunkGliderFix-WindowsClient.pak", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkGliderFix-WindowsClient.pak");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/1000926828514529290/1015445232302702644/pakchunkGliderFix-WindowsClient.sig", $"{pictureBox.Name}\\FortniteGame\\Content\\Paks\\pakchunkGliderFix-WindowsClient.sig");
+                }
             }
             else
             {
@@ -168,7 +195,26 @@ namespace CoreMain
         }
         private void Form_Shown(Object sender, EventArgs e)
         {
+            
+            var task = Task.Run(async () =>
+            {
+                for (; ; )
+                {
+                    await Task.Delay(1000);
+                    bool fard32 = label1.Text == "invalid user";
 
+                    if (fard32 == false)
+                    {
+                        var regexItem = new Regex("^[a-zA-Z0-9 ]*$");
+                        if (!regexItem.IsMatch(label1.Text))
+                        {
+                            MessageBox.Show("You have special Characters in your name! Please Input your discord username with no special characters", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                            value = Interaction.InputBox("Please input a valid username!");
+                            label1.BeginInvoke((Action)delegate { label1.Text = value; });
+                        };
+                    }
+                }
+            });
 
         }
         public class Build
@@ -176,11 +222,24 @@ namespace CoreMain
             public string Name { get; set; }
             public string Path { get; set; }
         }
+        private string value;
         private void Form1_Load(object sender, EventArgs e)
         {
             siticoneRoundedTextBox1.Text = Properties.Settings.Default.Path;
 
             Lawin.Start();
+            
+
+
+            
+            
+
+
+
+
+
+
+
         }
         private void roundedPicture1_Click(object sender, EventArgs e)
         {
@@ -265,7 +324,7 @@ namespace CoreMain
 
         private void AddBuild_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This does not work but you can see the page.");
+          
             AddBuild form = new AddBuild();
             form.Show();
         }
@@ -304,6 +363,15 @@ namespace CoreMain
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void siticoneButton2_Click_2(object sender, EventArgs e)
+        {
         }
     }
 }

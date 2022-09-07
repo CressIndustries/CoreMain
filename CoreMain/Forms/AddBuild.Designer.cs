@@ -28,13 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.siticoneButton3 = new ns1.SiticoneButton();
             this.siticoneButton1 = new ns1.SiticoneButton();
             this.siticoneTextBox1 = new ns1.SiticoneTextBox();
             this.PathText = new ns1.SiticoneTextBox();
             this.siticoneButton5 = new ns1.SiticoneButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -149,12 +153,26 @@
             this.siticoneButton5.Text = "...";
             this.siticoneButton5.Click += new System.EventHandler(this.siticoneButton5_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(171)))), ((int)(((byte)(102)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.button1.Location = new System.Drawing.Point(8, 176);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(392, 64);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Save";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // AddBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.ClientSize = new System.Drawing.Size(409, 259);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.siticoneButton5);
             this.Controls.Add(this.PathText);
             this.Controls.Add(this.siticoneTextBox1);
@@ -165,6 +183,7 @@
             this.Text = "AddBuild";
             this.Load += new System.EventHandler(this.AddBuild_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -177,5 +196,7 @@
         private ns1.SiticoneTextBox siticoneTextBox1;
         private ns1.SiticoneTextBox PathText;
         private ns1.SiticoneButton siticoneButton5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }

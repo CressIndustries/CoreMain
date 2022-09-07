@@ -31,12 +31,7 @@ C:\Users\dexte\source\repos\CoreMain\CoreMain\obj\Debug\CoreMain.Forms.StartingF
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\CoreMain.exe.config
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\CoreMain.exe
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\CoreMain.pdb
-C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\DiscordRPC.dll
-C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\DiscordRPC.pdb
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\DiscordRPC.xml
-C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
-C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\obj\Debug\CoreMain.csproj.AssemblyReference.cache
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\obj\Debug\CoreMain.csproj.SuggestedBindingRedirects.cache
@@ -50,3 +45,6 @@ C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\Co
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\obj\Debug\CoreMain.csproj.CopyComplete
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\obj\Debug\CoreMain.exe
 C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\obj\Debug\CoreMain.pdb
+C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\obj\Debug\CoreMain.csproj.Fody.CopyLocal.cache
+C:\Users\Zaydin\Documents\GitHub\CressLauncher\Core-Launcher-Rewrite\CoreMain\CoreMain\obj\Debug\CoreMain.csproj.Fody.RuntimeCopyLocal.cache

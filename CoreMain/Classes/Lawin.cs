@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
-using Microsoft.AspNet.SignalR.Client.Transports;
-using System.Threading;
 
 namespace CoreMain
 {

@@ -34,7 +34,6 @@
             this.siticoneButton3 = new ns1.SiticoneButton();
             this.siticoneButton1 = new ns1.SiticoneButton();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.siticoneButton2 = new ns1.SiticoneButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.AddBuild = new System.Windows.Forms.Label();
@@ -71,7 +70,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(217, 24);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Core Launcher | Beta 0.7";
+            this.label3.Text = "Core Launcher | Beta 0.8";
             // 
             // siticoneButton3
             // 
@@ -108,7 +107,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.siticoneButton2);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.roundedPicture1);
             this.panel2.Controls.Add(this.label1);
@@ -118,31 +116,14 @@
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // siticoneButton2
-            // 
-            this.siticoneButton2.CheckedState.Parent = this.siticoneButton2;
-            this.siticoneButton2.CustomImages.Parent = this.siticoneButton2;
-            this.siticoneButton2.FillColor = System.Drawing.Color.Green;
-            this.siticoneButton2.Font = new System.Drawing.Font("Product Sans", 24F, System.Drawing.FontStyle.Bold);
-            this.siticoneButton2.ForeColor = System.Drawing.Color.White;
-            this.siticoneButton2.HoveredState.FillColor = System.Drawing.Color.LawnGreen;
-            this.siticoneButton2.HoveredState.Parent = this.siticoneButton2;
-            this.siticoneButton2.Location = new System.Drawing.Point(21, 266);
-            this.siticoneButton2.Name = "siticoneButton2";
-            this.siticoneButton2.ShadowDecoration.Parent = this.siticoneButton2;
-            this.siticoneButton2.Size = new System.Drawing.Size(160, 44);
-            this.siticoneButton2.TabIndex = 15;
-            this.siticoneButton2.Text = "Launch";
-            this.siticoneButton2.Click += new System.EventHandler(this.siticoneButton2_Click_1);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Product Sans", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Product Sans", 15F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(65, 313);
+            this.label4.Location = new System.Drawing.Point(32, 208);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 17);
+            this.label4.Size = new System.Drawing.Size(125, 25);
             this.label4.TabIndex = 14;
             this.label4.Text = "Need Mods?";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -152,19 +133,21 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(34, 137);
+            this.label1.Location = new System.Drawing.Point(32, 136);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 25);
             this.label1.TabIndex = 12;
             this.label1.Text = "invalid user";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // AddBuild
             // 
             this.AddBuild.AutoSize = true;
+            this.AddBuild.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.AddBuild.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBuild.ForeColor = System.Drawing.Color.White;
-            this.AddBuild.Location = new System.Drawing.Point(20, 383);
+            this.AddBuild.Location = new System.Drawing.Point(336, 384);
             this.AddBuild.Name = "AddBuild";
             this.AddBuild.Size = new System.Drawing.Size(101, 24);
             this.AddBuild.TabIndex = 3;
@@ -177,11 +160,12 @@
             this.AddBuild1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.AddBuild1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBuild1.ForeColor = System.Drawing.Color.White;
-            this.AddBuild1.Location = new System.Drawing.Point(121, 380);
+            this.AddBuild1.Location = new System.Drawing.Point(720, 376);
             this.AddBuild1.Name = "AddBuild1";
             this.AddBuild1.Size = new System.Drawing.Size(33, 33);
             this.AddBuild1.TabIndex = 4;
             this.AddBuild1.Text = "+";
+            this.AddBuild1.Visible = false;
             this.AddBuild1.Click += new System.EventHandler(this.AddBuild1_Click);
             // 
             // siticoneRoundedTextBox1
@@ -200,7 +184,7 @@
             this.siticoneRoundedTextBox1.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedTextBox1.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.siticoneRoundedTextBox1.HoveredState.Parent = this.siticoneRoundedTextBox1;
-            this.siticoneRoundedTextBox1.Location = new System.Drawing.Point(160, 383);
+            this.siticoneRoundedTextBox1.Location = new System.Drawing.Point(80, 384);
             this.siticoneRoundedTextBox1.Name = "siticoneRoundedTextBox1";
             this.siticoneRoundedTextBox1.PasswordChar = '\0';
             this.siticoneRoundedTextBox1.PlaceholderText = "";
@@ -208,6 +192,7 @@
             this.siticoneRoundedTextBox1.ShadowDecoration.Parent = this.siticoneRoundedTextBox1;
             this.siticoneRoundedTextBox1.Size = new System.Drawing.Size(589, 24);
             this.siticoneRoundedTextBox1.TabIndex = 10;
+            this.siticoneRoundedTextBox1.Visible = false;
             // 
             // label2
             // 
@@ -230,6 +215,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -258,12 +244,12 @@
             this.ClientSize = new System.Drawing.Size(757, 588);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.siticoneRoundedTextBox1);
             this.Controls.Add(this.AddBuild1);
             this.Controls.Add(this.AddBuild);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.siticoneRoundedTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
@@ -296,7 +282,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private ns1.SiticoneButton siticoneButton2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

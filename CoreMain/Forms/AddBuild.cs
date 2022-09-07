@@ -108,26 +108,15 @@ namespace CoreMain.Forms
                     }
                     else
                     {
+                        if (siticoneTextBox1.Text == "Build Name")
+                        {
+                            MessageBox.Show("Name is empty!");
+                            return;
+                        }
                         PathText.Text = dialog.FileName;
                         Settings.Default.Path = dialog.FileName;
                         Settings.Default.Save();
-                        var localData = Environment.GetEnvironmentVariable("LocalAppData");
-                        var filePath = localData + @"\Core\builds.json";
-                        var jsonData = File.ReadAllText(filePath);
 
-                        PictureBox pictureBox = new PictureBox();
-                        pictureBox.LoadAsync(PathText.Text + "\\FortniteGame\\Content\\Splash\\Splash.bmp");
-
-                        var _build = JsonConvert.DeserializeObject<List<Build>>(jsonData) ?? new List<Build>();
-
-                        _build.Add(new Build { Name = siticoneTextBox1.Text, Path = PathText.Text });
-                        jsonData = JsonConvert.SerializeObject(_build, Formatting.Indented);
-
-                        File.WriteAllText(filePath, jsonData);
-
-                        MessageBox.Show("Added Build!");
-
-                        Application.Restart();
 
                         
                     }
@@ -145,6 +134,27 @@ namespace CoreMain.Forms
         private void PathText_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var localData = Environment.GetEnvironmentVariable("LocalAppData");
+            var filePath = localData + @"\Core\builds.json";
+            var jsonData = File.ReadAllText(filePath);
+
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.LoadAsync(PathText.Text + "\\FortniteGame\\Content\\Splash\\Splash.bmp");
+
+            var _build = JsonConvert.DeserializeObject<List<Build>>(jsonData) ?? new List<Build>();
+
+            _build.Add(new Build { Name = siticoneTextBox1.Text, Path = PathText.Text });
+            jsonData = JsonConvert.SerializeObject(_build, Formatting.Indented);
+
+            File.WriteAllText(filePath, jsonData);
+
+            MessageBox.Show("Added Build!");
+
+            Application.Restart();
         }
     }
 }

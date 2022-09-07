@@ -25,11 +25,14 @@ namespace CoreMain
             client.OnReady += (sender, e) =>
             {
 
-                l.BeginInvoke((Action)delegate { l.Text = e.User.Username; });
-                lab.BeginInvoke((Action)delegate { lab.Text = "Logged in as " + e.User.Username; });
+               var sex= l.BeginInvoke((Action)delegate { l.Text = e.User.Username; });
+               var lfs = lab.BeginInvoke((Action)delegate { lab.Text = "Logged in as " + e.User.Username; });
 
-                _ = pic.BeginInvoke((Action)delegate { pic.Load(e.User.GetAvatarURL(User.AvatarFormat.PNG));});
+                var egaming = pic.BeginInvoke((Action)delegate { pic.Load(e.User.GetAvatarURL(User.AvatarFormat.PNG));});
 
+                l.EndInvoke(sex);
+                lab.EndInvoke(lfs);
+                pic.EndInvoke(egaming);
             };
             client.OnError += (object sender, ErrorMessage e) =>
             {
