@@ -54,5 +54,12 @@
     "direction": "OUTBOUND",
     "created": "2022-09-04T23:15:42.870Z",
     "favorite": false
+  },
+  {
+    "accountId": "i_hate_ella_too",
+    "status": "ACCEPTED",
+    "direction": "OUTBOUND",
+    "created": "2022-09-08T18:15:52.505Z",
+    "favorite": false
   }
 ]

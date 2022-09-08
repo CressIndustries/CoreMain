@@ -35,8 +35,8 @@
             this.siticoneTextBox1 = new ns1.SiticoneTextBox();
             this.PathText = new ns1.SiticoneTextBox();
             this.siticoneButton5 = new ns1.SiticoneButton();
-            this.button1 = new System.Windows.Forms.Button();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.siticoneButton2 = new ns1.SiticoneButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.SuspendLayout();
@@ -101,7 +101,7 @@
             this.siticoneTextBox1.ForeColor = System.Drawing.Color.White;
             this.siticoneTextBox1.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.siticoneTextBox1.HoveredState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Location = new System.Drawing.Point(12, 52);
+            this.siticoneTextBox1.Location = new System.Drawing.Point(12, 34);
             this.siticoneTextBox1.Name = "siticoneTextBox1";
             this.siticoneTextBox1.PasswordChar = '\0';
             this.siticoneTextBox1.PlaceholderText = "";
@@ -126,7 +126,7 @@
             this.PathText.ForeColor = System.Drawing.Color.White;
             this.PathText.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathText.HoveredState.Parent = this.PathText;
-            this.PathText.Location = new System.Drawing.Point(12, 113);
+            this.PathText.Location = new System.Drawing.Point(12, 95);
             this.PathText.Name = "PathText";
             this.PathText.PasswordChar = '\0';
             this.PathText.PlaceholderText = "";
@@ -144,7 +144,7 @@
             this.siticoneButton5.Font = new System.Drawing.Font("Microsoft JhengHei Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneButton5.ForeColor = System.Drawing.Color.White;
             this.siticoneButton5.HoveredState.Parent = this.siticoneButton5;
-            this.siticoneButton5.Location = new System.Drawing.Point(351, 115);
+            this.siticoneButton5.Location = new System.Drawing.Point(351, 97);
             this.siticoneButton5.Name = "siticoneButton5";
             this.siticoneButton5.ShadowDecoration.Color = System.Drawing.Color.Green;
             this.siticoneButton5.ShadowDecoration.Parent = this.siticoneButton5;
@@ -153,26 +153,30 @@
             this.siticoneButton5.Text = "...";
             this.siticoneButton5.Click += new System.EventHandler(this.siticoneButton5_Click);
             // 
-            // button1
+            // siticoneButton2
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(171)))), ((int)(((byte)(102)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.button1.Location = new System.Drawing.Point(8, 176);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(392, 64);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.siticoneButton2.CheckedState.Parent = this.siticoneButton2;
+            this.siticoneButton2.CustomImages.Parent = this.siticoneButton2;
+            this.siticoneButton2.FillColor = System.Drawing.Color.Green;
+            this.siticoneButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.siticoneButton2.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton2.HoveredState.Parent = this.siticoneButton2;
+            this.siticoneButton2.Location = new System.Drawing.Point(12, 156);
+            this.siticoneButton2.Name = "siticoneButton2";
+            this.siticoneButton2.ShadowDecoration.Color = System.Drawing.Color.Green;
+            this.siticoneButton2.ShadowDecoration.Parent = this.siticoneButton2;
+            this.siticoneButton2.Size = new System.Drawing.Size(385, 53);
+            this.siticoneButton2.TabIndex = 7;
+            this.siticoneButton2.Text = "Save";
+            this.siticoneButton2.Click += new System.EventHandler(this.siticoneButton2_Click_1);
             // 
             // AddBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(409, 259);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(409, 227);
+            this.Controls.Add(this.siticoneButton2);
             this.Controls.Add(this.siticoneButton5);
             this.Controls.Add(this.PathText);
             this.Controls.Add(this.siticoneTextBox1);
@@ -196,7 +200,7 @@
         private ns1.SiticoneTextBox siticoneTextBox1;
         private ns1.SiticoneTextBox PathText;
         private ns1.SiticoneButton siticoneButton5;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private ns1.SiticoneButton siticoneButton2;
     }
 }

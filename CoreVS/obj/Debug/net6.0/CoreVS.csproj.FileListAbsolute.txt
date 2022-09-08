@@ -1,0 +1,15 @@
+C:\Users\dexte\source\repos\CoreMain\CoreVS\bin\Debug\net6.0\CoreVS.exe
+C:\Users\dexte\source\repos\CoreMain\CoreVS\bin\Debug\net6.0\CoreVS.deps.json
+C:\Users\dexte\source\repos\CoreMain\CoreVS\bin\Debug\net6.0\CoreVS.runtimeconfig.json
+C:\Users\dexte\source\repos\CoreMain\CoreVS\bin\Debug\net6.0\CoreVS.dll
+C:\Users\dexte\source\repos\CoreMain\CoreVS\bin\Debug\net6.0\CoreVS.pdb
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.csproj.AssemblyReference.cache
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.AssemblyInfoInputs.cache
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.AssemblyInfo.cs
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.csproj.CoreCompileInputs.cache
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.dll
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\refint\CoreVS.dll
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.pdb
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\CoreVS.genruntimeconfig.cache
+C:\Users\dexte\source\repos\CoreMain\CoreVS\obj\Debug\net6.0\ref\CoreVS.dll

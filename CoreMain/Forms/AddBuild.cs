@@ -154,5 +154,26 @@ namespace CoreMain.Forms
 
             Application.Restart();
         }
+
+        private void siticoneButton2_Click_1(object sender, EventArgs e)
+        {
+            var localData = Environment.GetEnvironmentVariable("LocalAppData");
+            var filePath = localData + @"\Core\builds.json";
+            var jsonData = File.ReadAllText(filePath);
+
+            PictureBox pictureBox = new PictureBox();
+            pictureBox.LoadAsync(PathText.Text + "\\FortniteGame\\Content\\Splash\\Splash.bmp");
+
+            var _build = JsonConvert.DeserializeObject<List<Build>>(jsonData) ?? new List<Build>();
+
+            _build.Add(new Build { Name = siticoneTextBox1.Text, Path = PathText.Text });
+            jsonData = JsonConvert.SerializeObject(_build, Formatting.Indented);
+
+            File.WriteAllText(filePath, jsonData);
+
+            MessageBox.Show("Added Build!");
+
+            Application.Restart();
+        }
     }
 }

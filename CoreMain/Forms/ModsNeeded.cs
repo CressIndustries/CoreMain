@@ -48,6 +48,7 @@ namespace CoreMain.Forms
 
         private void ModsNeeded_Load(object sender, EventArgs e)
         {
+            label3.Text = new WebClient().DownloadString("https://pastebin.com/raw/rn5ds6ij");
             label4.Text = Properties.Settings.Default.Path;
         }
 
@@ -189,6 +190,79 @@ namespace CoreMain.Forms
             String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkPinkSparkle-WindowsClient.pak";
             File.Delete(myPath1);
             String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkPinkSparkle-WindowsClient.sig";
+            File.Delete(myPath2);
+        }
+
+        private void corButton18_Click(object sender, EventArgs e)
+        {
+            using (var client = new WebClient())
+            {
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1016467386687299664/pakchunkBOB-WindowsClient.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkBOB-WindowsClient.pak");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1016467386473386094/pakchunkBOB-WindowsClient.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkBOB-WindowsClient.sig");
+            }
+        }
+
+        private void corButton17_Click(object sender, EventArgs e)
+        {
+            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkBOB-WindowsClient.pak";
+            File.Delete(myPath1);
+            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkBOB-WindowsClient.sig";
+            File.Delete(myPath2);
+        }
+
+        private void corButton20_Click(object sender, EventArgs e)
+        {
+            using (var client = new WebClient())
+            {
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1017485436815421523/pakchunkStarWand-WindowsClient.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkStarWand-WindowsClient.pak");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1016450725179576351/1017485437012549703/pakchunkStarWand-WindowsClient.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkStarWand-WindowsClient.sig");
+            }
+        }
+
+        private void corButton19_Click(object sender, EventArgs e)
+        {
+            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkStarWand-WindowsClient.pak";
+            File.Delete(myPath1);
+            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkStarWand-WindowsClient.sig";
+            File.Delete(myPath2);
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void corButton22_Click(object sender, EventArgs e)
+        {
+            using (var client = new WebClient())
+            {
+                client.DownloadFile("https://cdn.discordapp.com/attachments/997023464089206815/1017494837441867806/pakchunkCandyAxe-WindowsClient.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkCandyAxe-WindowsClient.pak");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/997023464089206815/1017494837647384636/pakchunkCandyAxe-WindowsClient.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkCandyAxe-WindowsClient.sig");
+            }
+        }
+
+        private void corButton21_Click(object sender, EventArgs e)
+        {
+            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkCandyAxe-WindowsClient.pak";
+            File.Delete(myPath1);
+            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkCandyAxe-WindowsClient.sig";
+            File.Delete(myPath2);
+        }
+
+        private void corButton24_Click(object sender, EventArgs e)
+        {
+            using (var client = new WebClient())
+            {
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1000567894314319903/1017501777333080074/pakchunkElegantShovel-WindowsClient.pak", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkElegantShovel-WindowsClient.pak");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1000567894314319903/1017501777567948810/pakchunkElegantShovel-WindowsClient.sig", $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkElegantShovel-WindowsClient.sig");
+            }
+        }
+
+        private void corButton23_Click(object sender, EventArgs e)
+        {
+            String myPath1 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkElegantShovel-WindowsClient.pak";
+            File.Delete(myPath1);
+            String myPath2 = $"{label4.Text}\\FortniteGame\\Content\\Paks\\pakchunkElegantShovel-WindowsClient.sig";
             File.Delete(myPath2);
         }
     }

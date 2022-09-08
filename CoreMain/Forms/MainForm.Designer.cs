@@ -42,6 +42,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label5 = new System.Windows.Forms.Label();
             this.roundedPicture1 = new RoundedPicture();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -68,16 +69,15 @@
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(20, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(217, 24);
+            this.label3.Size = new System.Drawing.Size(0, 24);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Core Launcher | Beta 0.8";
             // 
             // siticoneButton3
             // 
             this.siticoneButton3.CheckedState.Parent = this.siticoneButton3;
             this.siticoneButton3.CustomImages.Parent = this.siticoneButton3;
             this.siticoneButton3.FillColor = System.Drawing.Color.Black;
-            this.siticoneButton3.Font = new System.Drawing.Font("Product Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneButton3.Font = new System.Drawing.Font("Product Sans", 9.749999F, System.Drawing.FontStyle.Bold);
             this.siticoneButton3.ForeColor = System.Drawing.Color.White;
             this.siticoneButton3.HoveredState.Parent = this.siticoneButton3;
             this.siticoneButton3.Location = new System.Drawing.Point(676, 0);
@@ -107,6 +107,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.roundedPicture1);
             this.panel2.Controls.Add(this.label1);
@@ -121,7 +122,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Product Sans", 15F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(32, 208);
+            this.label4.Location = new System.Drawing.Point(43, 306);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 25);
             this.label4.TabIndex = 14;
@@ -131,11 +132,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(32, 136);
+            this.label1.Location = new System.Drawing.Point(40, 137);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 25);
+            this.label1.Size = new System.Drawing.Size(99, 20);
             this.label1.TabIndex = 12;
             this.label1.Text = "invalid user";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -144,10 +145,10 @@
             // AddBuild
             // 
             this.AddBuild.AutoSize = true;
-            this.AddBuild.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.AddBuild.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.AddBuild.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBuild.ForeColor = System.Drawing.Color.White;
-            this.AddBuild.Location = new System.Drawing.Point(336, 384);
+            this.AddBuild.Location = new System.Drawing.Point(12, 383);
             this.AddBuild.Name = "AddBuild";
             this.AddBuild.Size = new System.Drawing.Size(101, 24);
             this.AddBuild.TabIndex = 3;
@@ -160,12 +161,11 @@
             this.AddBuild1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.AddBuild1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBuild1.ForeColor = System.Drawing.Color.White;
-            this.AddBuild1.Location = new System.Drawing.Point(720, 376);
+            this.AddBuild1.Location = new System.Drawing.Point(117, 380);
             this.AddBuild1.Name = "AddBuild1";
             this.AddBuild1.Size = new System.Drawing.Size(33, 33);
             this.AddBuild1.TabIndex = 4;
             this.AddBuild1.Text = "+";
-            this.AddBuild1.Visible = false;
             this.AddBuild1.Click += new System.EventHandler(this.AddBuild1_Click);
             // 
             // siticoneRoundedTextBox1
@@ -184,7 +184,7 @@
             this.siticoneRoundedTextBox1.ForeColor = System.Drawing.Color.White;
             this.siticoneRoundedTextBox1.HoveredState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.siticoneRoundedTextBox1.HoveredState.Parent = this.siticoneRoundedTextBox1;
-            this.siticoneRoundedTextBox1.Location = new System.Drawing.Point(80, 384);
+            this.siticoneRoundedTextBox1.Location = new System.Drawing.Point(156, 384);
             this.siticoneRoundedTextBox1.Name = "siticoneRoundedTextBox1";
             this.siticoneRoundedTextBox1.PasswordChar = '\0';
             this.siticoneRoundedTextBox1.PlaceholderText = "";
@@ -222,14 +222,26 @@
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(8, 416);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(744, 160);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(744, 175);
             this.flowLayoutPanel1.TabIndex = 12;
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(32, 170);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(150, 80);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Welcome To Core\r\nHope you Enjoy\r\nUi and code: Rily \r\nCode : Twin";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // roundedPicture1
             // 
             this.roundedPicture1.BackColor = System.Drawing.Color.DarkGray;
-            this.roundedPicture1.Location = new System.Drawing.Point(38, 19);
+            this.roundedPicture1.Location = new System.Drawing.Point(44, 19);
             this.roundedPicture1.Name = "roundedPicture1";
             this.roundedPicture1.Size = new System.Drawing.Size(124, 115);
             this.roundedPicture1.TabIndex = 1;
@@ -241,7 +253,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(757, 588);
+            this.ClientSize = new System.Drawing.Size(757, 597);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.AddBuild1);
@@ -283,6 +295,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label5;
     }
 }
 
